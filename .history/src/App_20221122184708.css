@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container-wrap{
+  background-color: #252525;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container-wrap h1{
+  font-size: 50px;
+}
+
+.container-wrap h2{
+  font-size: 35px;
+  background-image: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: black;
+}
