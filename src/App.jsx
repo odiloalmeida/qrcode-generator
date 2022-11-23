@@ -34,7 +34,8 @@ function App() {
         <a href={qrcode} download={'qrcode.png'}>
         <QRCode
         value={link}
-        size={350}
+        size={250}
+        className='svg'
         />
         </a>
 
